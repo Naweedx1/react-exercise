@@ -1,5 +1,3 @@
-import React from "react";
-
 const CalculateHandler = (userInput) => {
   // Should be triggered when form is submitted
   // You might not directly want to bind it to the submit event on the form though...
@@ -25,5 +23,7 @@ const CalculateHandler = (userInput) => {
   }
 
   // do something with yearlyData ...
+  return yearlyData;
+  // console.log("Calculated Data: ", yearlyData);
 };
 export default CalculateHandler;
